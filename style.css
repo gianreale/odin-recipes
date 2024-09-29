@@ -1,7 +1,36 @@
-h1{
-    background-color: rgb(182, 49, 49);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 198, 198);
 }
 
-ul{
-    background-color: rgb(182, 49, 49);
+.cabecalho {
+    justify-content: space-between;
+    display: flex;
+    background-color: lightcoral;
+}
+
+.logo {
+    margin: 0px 5px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.item-de-navegacao .link:hover {
+    color: gray;
+}
+
+.item-de-navegacao {
+    padding: 0px 8px;
 }
